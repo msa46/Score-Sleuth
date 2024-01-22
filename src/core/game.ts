@@ -19,4 +19,12 @@ app.post('/', async (c) => {
     })
 })
 
+app.get('/', (c) => {
+    return c.json({
+        message: {
+            length: 5,
+        }
+    })
+})
+
 export default app
