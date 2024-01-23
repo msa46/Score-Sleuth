@@ -1,6 +1,6 @@
 import { Hono } from 'hono'
 import { handle } from 'hono/vercel'
-import game from "@/src/core/game"
+import game from "@/core/game"
 
 export const config = {
   runtime: 'edge'

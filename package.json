@@ -10,8 +10,11 @@
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "eslint-plugin-react": "latest",
     "hono": "^3.12.6",
     "lucide-react": "^0.312.0",
     "next": "14.0.4",
@@ -29,7 +32,7 @@
     "autoprefixer": "^10.0.1",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
+    "eslint": "^8.56.0",
     "eslint-config-next": "14.0.4"
   }
 }
